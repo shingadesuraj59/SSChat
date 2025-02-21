@@ -38,6 +38,8 @@ const ChatBox = () => {
           </div>
         </div>
 
+        
+
 
         {/* //bottom part */}
        <div className="chat-input flex items-center gap-3 px-4 py-3 bg-white absolute bottom-0 left-0 right-0">
