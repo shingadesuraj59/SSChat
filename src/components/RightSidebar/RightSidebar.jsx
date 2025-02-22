@@ -1,5 +1,6 @@
 import React from 'react'
 import assets from '../../assets/assets'
+import { logout } from '../../config/Firebase'
 
 const RightSidebar = () => {
   return (
@@ -23,7 +24,7 @@ const RightSidebar = () => {
         </div>
       </div>
 
-      <button className='absolute bottom-[20px] left-[50%] bg-[#077eff] text-white border-none text-[13px] font-light px-[65px] py-[10px] rounded-[20px] cursor-pointer translate-[-50%]'>Logout</button>
+      <button onClick={()=>logout()} className='absolute bottom-[20px] left-[50%] bg-[#077eff] text-white border-none text-[13px] font-light px-[65px] py-[10px] rounded-[20px] cursor-pointer translate-[-50%]'>Logout</button>
       
     </div>
   )

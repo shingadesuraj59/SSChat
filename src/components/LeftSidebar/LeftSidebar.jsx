@@ -7,8 +7,15 @@ const LeftSidebar = () => {
       <div className="ls-top p-5">
         <div className="ls-nav flex justify-between items-center">
             <img className='logo max-w-[140px]' src={assets.logo} alt="logo" />
-            <div className="menu ">
+            <div className="menu relative px-0 py-3 group">
                 <img className='max-h-[20px] opacity-0.6 cursor-pointer' src={assets.menu_icon} alt="" />
+
+                 <div className="sub-menu absolute text-center top-[100%] right-0 w-[100px] p-3  bg-white text-black  shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+                 <p className="cursor-pointer text-[14px] hover:bg-gray-200 ">Edit Profile</p>
+                 <hr className="border-none h-[1px] bg-[#a4a4a4]" />
+                 <p className="cursor-pointer text-[14px] hover:bg-gray-200">Logout</p>
+
+                 </div>
             </div>
         </div>
          <div className="ls-search flex bg-[#002670] items-center gap-3 px-3 py-2 mt-5">
