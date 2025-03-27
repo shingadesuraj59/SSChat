@@ -16,3 +16,6 @@ A real-time chat application built with **React** and **Firebase**, featuring au
 - **Authentication:** Firebase Auth  
 - **Deployment:** Firebase Hosting  
 
+## 🌐 Live Demo
+
+🔗 **Try it here:** [Chat App Live](https://surajchat-5359f.web.app)
