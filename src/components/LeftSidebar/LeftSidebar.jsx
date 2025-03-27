@@ -77,7 +77,7 @@ const LeftSidebar = () => {
                     lastMessage: "",
                     rId: user.id,
                     updatedAt: Date.now(),
-                    messageSeen: true
+                    messageSeen: false
                 }),
             });
 
@@ -88,7 +88,7 @@ const LeftSidebar = () => {
                 lastMessage: "",
                 rId: user.id,
                 updatedAt: Date.now(),
-                messageSeen: true,
+                messageSeen: false,
                 userData: uData,
             });
             setShowSearch(false)
