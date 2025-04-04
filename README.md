@@ -15,7 +15,7 @@
   - Send and receive messages instantly using **Firebase Realtime Database** or **Cloud Firestore**
 
 - 🧑‍🤝‍🧑 **Active Users Tracking**
-  - View real-time updates of active users ```````````````````
+  - View real-time updates of active users 
 
 - 🌙 **Responsive UI**
   - Mobile-friendly, clean, and intuitive chat interface built with React and Tailwind CSS or Material UI
